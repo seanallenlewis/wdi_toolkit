@@ -30,3 +30,4 @@ function capFirstChar(str) {
     return Error("input must be a string.")
   }
   return str[0].toUpperCase() + str.slice(1)
+}
